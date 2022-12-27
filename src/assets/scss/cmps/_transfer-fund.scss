@@ -1,0 +1,30 @@
+.transfer-fund {
+    padding: 15px 40px;
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+    background: linear-gradient(rgba(250, 223, 170, 1.614), rgba(250, 217, 164, 0.707));
+
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        // button{
+
+        // }
+    }
+
+
+
+}

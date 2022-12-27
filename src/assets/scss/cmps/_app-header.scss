@@ -1,0 +1,20 @@
+.app-header{
+    // background-color: rgb(255, 72, 115);
+    background: linear-gradient( rgba(255, 194, 72, 0.614), rgba(255, 185, 72, 0.34));
+    padding: 15px;
+    nav{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        span{
+            width: 150px;
+            text-align: center;
+            a{
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+        
+    }
+}

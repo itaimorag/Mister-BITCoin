@@ -1,0 +1,45 @@
+.contact-edit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    nav{
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        button{
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+        }
+        // .back-btn{
+        //     &:hover{
+        //         border-bottom: 1px solid #fff;
+        //     }
+        // }
+    }
+    form{
+        .user-img{
+            width: 100px;
+            height:  100px;
+            margin-inline-end: 30px;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        margin: 0 20px;
+        border-radius: 5px;
+        background: linear-gradient( rgba(250, 223, 170, 1.614), rgba(250, 217, 164, 0.707));
+        .edit-user-field{
+            margin-inline-end: 30px;
+            margin-bottom: 20px;
+        }
+        input{
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    }
+}

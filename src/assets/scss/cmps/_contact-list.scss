@@ -1,0 +1,19 @@
+.contact-list{
+    ul{
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        /* margin: 0 auto; */
+        gap: 20px;
+        margin-top: 30px;
+        padding:30px;
+        li{
+            background-color: gray;
+            margin-bottom: 10px;
+            border-radius: 30px;
+max-width: 300px;
+cursor: pointer;
+        }
+    }
+}

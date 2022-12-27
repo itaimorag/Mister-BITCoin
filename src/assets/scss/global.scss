@@ -1,0 +1,57 @@
+// Externals
+
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+
+// Basics
+@import "basics/typography";
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/modals";
+@import "basics/animations";
+
+// Views
+@import './views/contact-page';
+@import './views/contact-details';
+@import './views/statistics-page';
+@import './views/home-page'; 
+@import './views/contact-edit';
+@import './views/signup-page';
+
+// Components
+@import './cmps/chart';
+@import './cmps/app-header';
+@import "./cmps/contact-list";
+@import "./cmps/contact-preview";
+@import "./cmps/contact-filter";
+@import "./cmps/transfer-fund";
+@import "./cmps/transactions-list";
+
+
+
+
+
+
+
+.main-app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    main {
+        flex-grow: 1;
+        width: 100%;
+    }
+    .main-container{
+        background-color: #111;
+        color: #fff;
+    }
+
+    > footer {
+        background: linear-gradient( rgba(255, 194, 72, 0.614), rgba(255, 185, 72, 0.34));
+        color: #111;
+    }
+}

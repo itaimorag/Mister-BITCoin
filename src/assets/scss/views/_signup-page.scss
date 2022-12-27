@@ -1,0 +1,32 @@
+.signup-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    img{
+        width:100px;
+        height:60px;
+         border-radius: 5px;
+        margin-top: 150px;
+    }
+    form{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    // button{
+
+    // }
+    }
+  
+    
+
+}
